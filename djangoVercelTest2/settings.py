@@ -72,10 +72,10 @@ WSGI_APPLICATION = 'djangoVercelTest2.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'filmomania',
-        'USER': 'filmomania_owner',
-        'PASSWORD': 'j7JQBAfmFg2w',
-        'HOST': 'ep-fancy-cloud-a2lym6ou.eu-central-1.aws.neon.tech',
+        'NAME': 'neondb',
+        'USER': 'AndrejWiseman',
+        'PASSWORD': 'tq0QxBuD3cbs',
+        'HOST': 'ep-red-king-a2ysb54h.eu-central-1.aws.neon.tech',
         'PORT': getenv('PGPORT', 5432),
         'OPTIONS': {
             'sslmode': 'require',
